@@ -99,7 +99,8 @@ class ProductionCO2ModelClass():
         # b. find optimal labor supply
 
         # ADD CODE HERE
-        # res = ??
+        res = optimize.minimize(value_of_choice,0.5,bounds=((1e-8,None),),
+                                method='L-BFGS-B',tol=par.tol_households)
         
         sol.l = res.x[0]
         sol.U = -res.fun
