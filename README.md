@@ -16,9 +16,9 @@ Course description: <https://kurser.ku.dk/course/aøka08248u>
 
 | Folder | Content |
 |---|---|
-| [lecture-content/](lecture-content/) | Notebooks worked through during lectures — Python fundamentals, `numpy`/`pandas`, plotting, optimisation, simulation |
-| [problem-sets/](problem-sets/) | Weekly exercises, one notebook per set |
-| [projects/](projects/) | Larger assignments: data analysis and numerical model solution |
+| lecture-content | Notebooks worked through during lectures — Python fundamentals, `numpy`/`pandas`, plotting, optimisation, simulation |
+| problem-sets | Weekly exercises, one notebook per set |
+| projects | Larger assignments: data analysis and numerical model solution |
 
 ---
 
@@ -37,18 +37,6 @@ Course description: <https://kurser.ku.dk/course/aøka08248u>
 - **Software practice** — structuring and documenting code, testing and debugging,
   version control with Git
 
----
-
-## Running the notebooks
-
-```bash
-git clone https://github.com/Hsueh-1113/lee-repository.git
-cd lee-repository
-pip install -r requirements.txt
-jupyter lab
-```
-
-Developed with Python 3.11 (Anaconda distribution).
 
 ---
 
