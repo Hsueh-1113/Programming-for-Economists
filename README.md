@@ -8,17 +8,45 @@ control flow, importing data from online databases (APIs), descriptive statistic
 visualisation, numerical optimisation and root-finding, simulation of economic models,
 and collaborative development with Git.
 
-Course description: <https://kurser.ku.dk/course/aøka08248u>
+Course description: [kurser.ku.dk/course/aøka08248u](https://kurser.ku.dk/course/a%C3%B8ka08248u)
+
+---
+
+## What is my own work
+
+This repository contains both course material and my own solutions. To be explicit:
+
+| | Folders |
+| --- | --- |
+| **My own work** | `Problem_set_0_Getting_started` – `Problem_set_7_ASAD`, `01_dataproject_Lee`, `02_modelproject`, `03_examproject` |
+| **Course material** | Lecture notebooks (`Intro_VSCode_Git_Anaconda`, `01_Introduction`, `02_03_Basics`, `04_PrintingPlotting`, and the remaining numbered folders), `Projects`, `Dataproject___tips.pdf` |
+
+Lecture notebooks and problem-set templates are teaching material from the Department
+of Economics and are included here only so that my solutions are readable in context.
+All rights to that material remain with the course.
 
 ---
 
 ## Structure
 
 | Folder | Content |
-|---|---|
-| lecture-content | Notebooks worked through during lectures — Python fundamentals, `numpy`/`pandas`, plotting, optimisation, simulation |
-| problem-sets | Weekly exercises, one notebook per set |
-| projects | Larger assignments: data analysis and numerical model solution |
+| --- | --- |
+| `Intro_VSCode_Git_Anaconda` | Environment setup — VSCode, Git, Anaconda |
+| `01_Introduction`, `02_03_Basics` | Python fundamentals — data types, containers, control flow, functions |
+| `04_PrintingPlotting` | Printing, formatting and figures with `matplotlib` |
+| `05_06_DescriptivEconomics` | Descriptive statistics; importing, cleaning and merging data with `pandas` |
+| `06_YourFirstProject` | Walkthrough for the data project |
+| `07_Optimization_RootFinding` | Numerical optimisers, root-finders, interpolation |
+| `08_Seeds_and_RandomNumbers` | Pseudo-random numbers, seeds, simulation |
+| `09_Solow_model`, `10_Walras`, `11_ASAD` | Solving and simulating micro- and macroeconomic models |
+| `12_Calibration` | Calibrating models to data |
+| `12_YourSecondProject` | Walkthrough for the model project |
+| `13_DynamicProgramming` | Dynamic programming |
+| `14_AI`, `14_ExamPrep` | Use of AI tools in the course; exam preparation |
+| `Problem_set_0_Getting_started` – `Problem_set_7_ASAD` | Weekly exercises — my solutions |
+| `01_dataproject_Lee` | **Data project** — data sourced via API, cleaned, merged and visualised |
+| `02_modelproject` | **Model project** — an economic model solved and simulated numerically |
+| `03_examproject` | **Exam project** |
 
 ---
 
@@ -37,9 +65,11 @@ Course description: <https://kurser.ku.dk/course/aøka08248u>
 - **Software practice** — structuring and documenting code, testing and debugging,
   version control with Git
 
-
 ---
 
-All code is my own coursework, shared for portfolio purposes. Data comes from publicly available sources; no restricted or licensed data is included in this repository.
+## Data
+
+All data used here comes from publicly available sources accessed through open APIs.
+No restricted or licensed data is included in this repository.
 
 
