@@ -16,9 +16,9 @@ Course description: <https://kurser.ku.dk/course/aøka08248u>
 
 | Folder | Content |
 |---|---|
-| [`lecture-content/`](lecture-content/) | Notebooks worked through during lectures — Python fundamentals, `numpy`/`pandas`, plotting, optimisation, simulation |
-| [`problem-sets/`](problem-sets/) | Weekly exercises, one notebook per set |
-| [`projects/`](projects/) | Larger assignments: data analysis and numerical model solution |
+| [lecture-content/](lecture-content/) | Notebooks worked through during lectures — Python fundamentals, `numpy`/`pandas`, plotting, optimisation, simulation |
+| [problem-sets/](problem-sets/) | Weekly exercises, one notebook per set |
+| [projects/](projects/) | Larger assignments: data analysis and numerical model solution |
 
 ---
 
