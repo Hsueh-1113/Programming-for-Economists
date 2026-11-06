@@ -14,16 +14,27 @@ Course description: [kurser.ku.dk/course/aøka08248u](https://kurser.ku.dk/cours
 
 ## What is my own work
 
-This repository contains both course material and my own solutions. To be explicit:
+This repository contains both course material and my own work. To be explicit:
 
 | | Folders |
 | --- | --- |
-| **My own work** | `Problem_set_0_Getting_started` – `Problem_set_7_ASAD`, `01_dataproject_Lee`, `02_modelproject`, `03_examproject` |
-| **Course material** | Lecture notebooks (`Intro_VSCode_Git_Anaconda`, `01_Introduction`, `02_03_Basics`, `04_PrintingPlotting`, and the remaining numbered folders), `Projects`, `Dataproject___tips.pdf` |
+| **My own work** | [`projects/`](projects) — data, model and exam projects, written in a group of three (my parts are listed below)<br>[`problem_sets/`](problem_sets) — my solutions to the weekly problem sets |
+| **Course material** | [`lectures/`](lectures) — lecture notebooks, slides and walkthroughs |
 
 Lecture notebooks and problem-set templates are teaching material from the Department
 of Economics and are included here only so that my solutions are readable in context.
 All rights to that material remain with the course.
+
+### My parts of the group projects
+
+The projects were written together with Tamanna Shabnam and Jie Zhou; the full split is in
+[`projects/README.md`](projects/README.md).
+
+| Project | My parts |
+| --- | --- |
+| [Data project](projects/01_data_project) | Core and disaggregated inflation in Denmark (with Tamanna Shabnam); international comparison of HICP inflation; extension on energy prices and a Taylor-rule policy rate |
+| [Model project](projects/02_model_project) | Public good and optimal tax system (with Tamanna Shabnam); top tax; extension |
+| [Exam project](projects/03_exam_project) | Exchange economy (with Tamanna Shabnam); AS-AD model |
 
 ---
 
@@ -31,11 +42,19 @@ All rights to that material remain with the course.
 
 | Folder | Content |
 | --- | --- |
-| `Intro_VSCode_Git_Anaconda` | Environment setup — VSCode, Git, Anaconda |
+| **`projects/`** | |
+| `01_data_project` | **Data project** — inflation in Denmark and across countries, with data from the Statistics Denmark and FRED APIs |
+| `02_model_project` | **Model project** — labour supply, public goods and optimal taxation, solved numerically |
+| `03_exam_project` | **Exam project** — Danish house prices, an exchange economy and the AS-AD model |
+| **`problem_sets/`** | |
+| `Problem_set_0_Getting_started` | Setup exercise (course instructions) |
+| `Problem_set_1_Printing_and_plotting` – `Problem_set_7_ASAD` | Weekly exercises — my solutions |
+| **`lectures/`** | |
+| `00_Intro_VSCode_Git_Anaconda` | Environment setup — VSCode, Git, Anaconda |
 | `01_Introduction`, `02_03_Basics` | Python fundamentals — data types, containers, control flow, functions |
 | `04_PrintingPlotting` | Printing, formatting and figures with `matplotlib` |
-| `05_06_DescriptivEconomics` | Descriptive statistics; importing, cleaning and merging data with `pandas` |
-| `06_YourFirstProject` | Walkthrough for the data project |
+| `05_06_DescriptiveEconomics` | Descriptive statistics; importing, cleaning and merging data with `pandas` |
+| `06_YourFirstProject` | Walkthrough and tips for the data project |
 | `07_Optimization_RootFinding` | Numerical optimisers, root-finders, interpolation |
 | `08_Seeds_and_RandomNumbers` | Pseudo-random numbers, seeds, simulation |
 | `09_Solow_model`, `10_Walras`, `11_ASAD` | Solving and simulating micro- and macroeconomic models |
@@ -43,10 +62,6 @@ All rights to that material remain with the course.
 | `12_YourSecondProject` | Walkthrough for the model project |
 | `13_DynamicProgramming` | Dynamic programming |
 | `14_AI`, `14_ExamPrep` | Use of AI tools in the course; exam preparation |
-| `Problem_set_0_Getting_started` – `Problem_set_7_ASAD` | Weekly exercises — my solutions |
-| `01_dataproject_Lee` | **Data project** — data sourced via API, cleaned, merged and visualised |
-| `02_modelproject` | **Model project** — an economic model solved and simulated numerically |
-| `03_examproject` | **Exam project** |
 
 ---
 
@@ -69,7 +84,9 @@ All rights to that material remain with the course.
 
 ## Data
 
-All data used here comes from publicly available sources accessed through open APIs.
+All data come from public sources — Statistics Denmark and FRED — mostly downloaded
+through their APIs (`dstapi`, `fredapi`); a few tables are included as Excel or CSV files.
 No restricted or licensed data is included in this repository.
 
-
+The data project needs a free FRED API key, which is not included. See
+[`projects/README.md`](projects/README.md#how-to-run) for how to add your own.
